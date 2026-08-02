@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imageViewAaron"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="Picture of Aaron Adams"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aaron_contact" />
+
+        <TextView
+            android:id="@+id/textViewAaronName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Aaron Adams"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAaronAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Address: 456 Oak Lane, Stafford, VA 22554"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewAaronPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Phone: 540-555-5678"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewAaronEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Email: aaron.adams@email.com"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</ScrollView>
